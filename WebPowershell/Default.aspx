@@ -13,7 +13,7 @@
             <p>Please type the directory for which you want to get the child items:
                 <asp:TextBox ID="Input1" runat="server" Width="100%" Height="20px" ></asp:TextBox>
             </p>
-            <asp:Button ID="ExecuteInput1" runat="server" Text="Execute" Width="200" onclick="ExecuteInputClick" />
+            <asp:Button ID="ExecuteInput1" runat="server" Text="Execute" Width="200" onclick="ExecuteInputClick1" />
 
             <p>Result
             <asp:TextBox ID="Result1" TextMode="MultiLine" Width="100%" Height="450px" runat="server"></asp:TextBox>
@@ -27,7 +27,7 @@
             <p>Please type the directory for which you want to get the child items:
                 <asp:TextBox ID="Input2" runat="server" Width="100%" Height="20px" ></asp:TextBox>
             </p>
-            <asp:Button ID="ExecuteInput2" runat="server" Text="Execute" Width="200" onclick="ExecuteInputClick" />
+            <asp:Button ID="ExecuteInput2" runat="server" Text="Execute" Width="200" onclick="ExecuteInputClick2" />
 
             <p>Result
             <asp:TextBox ID="Result2" TextMode="MultiLine" Width="100%" Height="450px" runat="server"></asp:TextBox>
