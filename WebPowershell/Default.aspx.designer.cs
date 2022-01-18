@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ITDropletsPowershell
+namespace WebPowershell
 {
 
 
@@ -24,30 +24,57 @@ namespace ITDropletsPowershell
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// Input control.
+        /// Input1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Input;
+        protected global::System.Web.UI.WebControls.TextBox Input1;
 
         /// <summary>
-        /// ExecuteInput control.
+        /// ExecuteInput1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ExecuteInput;
+        protected global::System.Web.UI.WebControls.Button ExecuteInput1;
 
         /// <summary>
-        /// Result control.
+        /// Result1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox Result;
+        protected global::System.Web.UI.WebControls.TextBox Result1;
+
+        /// <summary>
+        /// Input2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Input2;
+
+        /// <summary>
+        /// ExecuteInput2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ExecuteInput2;
+
+        /// <summary>
+        /// Result2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox Result2;
     }
 }

@@ -69,9 +69,6 @@
     <Reference Include="VMware.Binding.WsTrust">
       <HintPath>..\..\..\..\Downloads\VMware-vSphere-SDK-6.7.0-14379537\SDK\vsphere-ws\dotnet\cs\samples\VMware.Binding.WsTrust\bin\Debug\VMware.Binding.WsTrust.dll</HintPath>
     </Reference>
-    <Reference Include="VMware.Vim">
-      <HintPath>..\..\..\..\..\..\Program Files\WindowsPowerShell\Modules\VMware.Vim\7.0.3.18730922\netcoreapp2.0\VMware.Vim.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
