@@ -8,8 +8,8 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
-    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
-    <NameOfLastUsedPublishProfile>C:\Users\KaramA\source\repos\WebPowershell\WebPowershell\Properties\PublishProfiles\registry.hub.docker.com_keinstien.pubxml</NameOfLastUsedPublishProfile>
+    <LastActiveSolutionConfig>Release|Any CPU</LastActiveSolutionConfig>
+    <NameOfLastUsedPublishProfile>C:\Users\KaramA\OneDrive - Acknowledge Benelux BV\Documenten\GitHub\powershell-web-app\WebPowershell\Properties\PublishProfiles\FolderProfile1.pubxml</NameOfLastUsedPublishProfile>
     <ActiveDebugTarget>
     </ActiveDebugTarget>
   </PropertyGroup>

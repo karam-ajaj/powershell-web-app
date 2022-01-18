@@ -76,7 +76,6 @@ namespace WebPowershell
         {
             // First of all, let's clean the TextBox from any previous output
             Result2.Text = string.Empty;
-            //Result.Text = string.Empty;
             // Create the InitialSessionState Object
             InitialSessionState iss = InitialSessionState.CreateDefault();
             //iss.ExecutionPolicy = Microsoft.PowerShell.ExecutionPolicy.Unrestricted;
@@ -126,4 +125,6 @@ namespace WebPowershell
 
         }
     }
+
+
 }
