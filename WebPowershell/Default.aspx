@@ -9,9 +9,18 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <div><h1 align="center">Get-ChildItem</h1></div>
-            <p>Please type the directory for which you want to get the child items:
-                <asp:TextBox ID="Input1" runat="server" Width="100%" Height="20px" ></asp:TextBox>
+            <div><h1 align="center">script</h1></div>
+            <p>vCenter FQDNs:
+                <asp:TextBox ID="vcenter" runat="server" Width="20%" Height="20px" ></asp:TextBox>
+            </p>
+            <p>user:
+                <asp:TextBox ID="user" runat="server" Width="20%" Height="20px" ></asp:TextBox>
+            </p>
+            <p>password:
+                <asp:TextBox ID="password" runat="server" Width="20%" Height="20px" ></asp:TextBox>
+            </p>
+            <p>script:
+                <asp:TextBox ID="script" runat="server" Width="20%" Height="20px" ></asp:TextBox>
             </p>
             <asp:Button ID="ExecuteInput1" runat="server" Text="Execute" Width="200" onclick="ExecuteInputClick1" />
 

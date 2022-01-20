@@ -27,7 +27,7 @@ namespace WebPowershell
             //iss.ExecutionPolicy = Microsoft.PowerShell.ExecutionPolicy.Unrestricted;
             //In our specific case we don't need to import any module, but I'm adding these two lines below
             //to show where we would import a Module from Path.
-            //iss.ImportPSModulesFromPath("C:\\Program Files\\WindowsPowerShell\\Modules\\VMware.Vim");
+            iss.ImportPSModulesFromPath("C:\\Program Files\\WindowsPowerShell\\Modules\\VMware.Vim");
             //iss.ImportPSModulesFromPath("C:\\inetpub\\LocalScriptsAndModules\\MyOtherModule2");
 
 
@@ -35,12 +35,12 @@ namespace WebPowershell
             var shell = PowerShell.Create(iss);
             // Add the command to the Powershell Object, then add the parameter from the text box with ID Input
             //The first one is the command we want to run with the input, so Get-ChildItem is all we need
-            shell.Commands.AddCommand("Get-ChildItem");
+            shell.Commands.AddCommand(script.Text);
             //shell.Commands.AddCommand("command", Input.Text);
             //shell1.Commands.AddCommand("Get-VIServer");
             //Now we're adding the variable (so the directory) chosen by the user of the web application
             //Note that "Path" below comes from Get-ChildItem -Directory and Input.Text it's what the user typed
-            shell.Commands.AddParameter("Path", Input1.Text);
+            shell.Commands.AddParameter("Server", vcenter.Text);
 
             // Execute the script 
             try
@@ -65,6 +65,7 @@ namespace WebPowershell
                     Result1.Text = Server.HtmlEncode(builder.ToString());
                 }
             }
+
             catch (ActionPreferenceStopException Error) { Result1.Text = Error.Message; }
             catch (RuntimeException Error) { Result1.Text = Error.Message; };
 
@@ -89,12 +90,12 @@ namespace WebPowershell
             var shell = PowerShell.Create(iss);
             // Add the command to the Powershell Object, then add the parameter from the text box with ID Input
             //The first one is the command we want to run with the input, so Get-ChildItem is all we need
-            shell.Commands.AddCommand("Get-ChildItem");
+            shell.Commands.AddCommand("Set-ExecutionPolicy");
             //shell.Commands.AddCommand("command", Input.Text);
             //shell1.Commands.AddCommand("Get-VIServer");
             //Now we're adding the variable (so the directory) chosen by the user of the web application
             //Note that "Path" below comes from Get-ChildItem -Directory and Input.Text it's what the user typed
-            shell.Commands.AddParameter("Path", Input2.Text);
+            shell.Commands.AddParameter("ExecutionPolicy", Input2.Text);
 
             // Execute the script 
             try
